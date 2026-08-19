@@ -139,19 +139,19 @@ scripts/seed.ts          CSV → graph loader
 ```
 
 ## Error handling
-
+ 
 Every database call is wrapped in `runQuery` (`lib/db.ts`), which converts driver errors into a
 `DatabaseUnavailableError`. Pages and API routes catch this specifically and render a friendly
 "database unreachable" state instead of crashing — try it by temporarily blanking
 `COGNODB_PASSWORD` in `.env.local`.
-
+ 
 ## Deployment
-
+ 
 Deployed on [Vercel](https://vercel.com) (free tier). Set `COGNODB_URI` and `COGNODB_PASSWORD` as
 environment variables in the Vercel project settings — never commit them.
-
-**Live demo:** _add your deployed URL here_
-**Screen recording:** _add your recording link here_
+ 
+**Live demo:** https://six-degree-cinema.vercel.app/
+**Screen recording:** https://drive.google.com/file/d/1GLz1xmXvzjOyuLH2lEKdnTvEEFj8PqCG/view?usp=sharing
 
 ## Screenshots
 
