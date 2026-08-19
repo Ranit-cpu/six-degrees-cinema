@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Anton', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+.font-display { font-family: var(--font-display); }
+.font-body { font-family: var(--font-body); }
+.font-mono { font-family: var(--font-mono); }
+
+/* Signature element: a strip of film-reel sprocket holes used as a section divider. */
+.filmstrip {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.25) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+  background-position: 0 0;
+  border-radius: 2px;
+}
+
+::selection {
+  background: #e3b341;
+  color: #0e1116;
+}
+
+:focus-visible {
+  outline: 2px solid #e3b341;
+  outline-offset: 2px;
+}
