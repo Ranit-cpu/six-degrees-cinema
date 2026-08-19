@@ -155,4 +155,11 @@ environment variables in the Vercel project settings — never commit them.
 
 ## Screenshots
 
-_Add screenshots of the home/search page, an actor profile, and the path-finder result here._
+**Home / search**
+![Home page search](public/1.png)
+
+**Actor profile — filmography and co-stars**
+![Tom Holland actor profile](public/2.png)
+
+**Find the Path — multi-hop traversal result**
+![Path from Tom Holland to Robert Downey Jr.](public/3.png)
