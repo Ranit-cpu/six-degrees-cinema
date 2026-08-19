@@ -151,6 +151,7 @@ Deployed on [Vercel](https://vercel.com) (free tier). Set `COGNODB_URI` and `COG
 environment variables in the Vercel project settings — never commit them.
  
 **Live demo:** https://six-degree-cinema.vercel.app/
+
 **Screen recording:** https://drive.google.com/file/d/1GLz1xmXvzjOyuLH2lEKdnTvEEFj8PqCG/view?usp=sharing
 
 ## Screenshots
@@ -163,3 +164,6 @@ environment variables in the Vercel project settings — never commit them.
 
 **Find the Path — multi-hop traversal result**
 ![Path from Tom Holland to Robert Downey Jr.](public/3.png)
+
+**Movie page — cast and shared-cast recommendations**
+![Movie detail page with recommendations](public/4.png)
